@@ -19,6 +19,6 @@
             <uses-permission android:name="android.permission.WAKE_LOCK" />
         </config-file>
         
-        <source-file src="src/android/PowerManagement.java" target-dir="src/org/apache/cordova/plugin/power-management" />
+        <source-file src="src/android/PowerManagement.java" target-dir="src/org/apache/cordova/plugin/powermanagement" />
     </platform>
 </plugin>

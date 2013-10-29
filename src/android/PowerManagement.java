@@ -18,7 +18,7 @@
  * Cordova (Android) plugin for accessing the power-management functions of the device
  * @author Wolfgang Koller <viras@users.sourceforge.net>
  */
-package org.apache.cordova.plugin;
+package org.apache.cordova.plugin.powermanagement;
 
 import android.content.Context;
 import android.os.PowerManager;
