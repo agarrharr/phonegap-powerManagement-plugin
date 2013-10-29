@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.apache.cordova.plugin.power-management"
+      version="0.1.0">
+    <name>Sms</name>
+    <description>Power Management Phonegap Plugin</description>
+    <license>GNU</license>
+    <keywords>cordova,phonegap,power</keywords>
+
+
+    <js-module src="www/PowerManagement.js" name="PowerManagement">
+        <clobbers target="window.powerManagement" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+        </config-file>
+        
+        <source-file src="src/android/PowerManagement.java" target-dir="src/org/apache/cordova/plugin/power-management" />
+    </platform>
+</plugin>
