@@ -1,0 +1,2 @@
+phonegap-powerManagement-plugin
+===============================
