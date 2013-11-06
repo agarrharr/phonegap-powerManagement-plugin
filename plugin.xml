@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="org.apache.cordova.plugin.power-management"
       version="0.1.0">
-    <name>Sms</name>
+    <name>Power Management</name>
     <description>Power Management Phonegap Plugin</description>
     <license>GNU</license>
     <keywords>cordova,phonegap,power</keywords>
