@@ -21,4 +21,13 @@
         
         <source-file src="src/android/PowerManagement.java" target-dir="src/org/apache/cordova/plugin/powermanagement" />
     </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>location</string>
+            </array>
+        </config-file>
+    </platform>
 </plugin>
