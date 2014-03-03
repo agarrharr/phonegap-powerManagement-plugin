@@ -23,6 +23,24 @@ Contribution
 ---------
 Feel free to contribute any fixes, updates, or new features. If you notice anything wrong or have any requests, please add an issue.
 
+Usage
+---------
+
+You might want to set up a variable to keep track of whether or not the wake lock is on:
+
+    var wakelocked = false;
+
+Then, you can turn on the wake lock like this. Inside the callback function, you can do whatever you want:
+
+    powerManagement.acquireWakeLock(function() {
+        wakelocked = true;
+    });
+
+Similarly, you can turn off the wake lock:
+
+    powerManagement.releaseWakeLock(function() {
+        wakelocked = false;
+    });
 
 License from 
 =======
