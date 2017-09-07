@@ -1,7 +1,5 @@
 # phonegap-powerManagement-plugin
 
-<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
-
 Plugin for Cordova (3.0+)
 
 This code is from https://github.com/phonegap/phonegap-plugins/tree/master/Android/PowerManagement by Wolfgang Koller, edited by Kevin Frey, and put together with the directory structure and plugin.xml file by Adam Harris.
@@ -60,3 +58,5 @@ powerManagement.releaseWakeLock(function() {
   wakelocked = false;
 });
 ```
+
+<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
