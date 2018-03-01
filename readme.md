@@ -58,5 +58,3 @@ powerManagement.releaseWakeLock(function() {
   wakelocked = false;
 });
 ```
-
-<a href="https://app.codesponsor.io/link/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin" rel="nofollow"><img src="https://app.codesponsor.io/embed/3owRGftAkghuGdjHaa955zEJ/agarrharr/phonegap-powerManagement-plugin.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
